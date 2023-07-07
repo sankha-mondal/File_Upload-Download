@@ -1,0 +1,39 @@
+
+<br><br>
+<div class="container mt-2">   
+    <div class="row">
+
+        <div class="col-6 offset-3">
+
+            <div class="text-center">
+                <br>
+                <img *ngIf="flag1" src="../../../assets/file2.png" alt="file logo" width="200"><br>
+                <img *ngIf="flag2" src="../../../assets/uploading1.gif" alt="Uploading gif" height="178" width="200">
+                <h2 class="mt-1" style="color:black;">Upload Files</h2>
+            </div>
+
+            <form>  <!--  #fileRef_store="ngForm" (ngSubmit)="file_upload(fileRef_store)" Template DF -->
+                
+                <!-- File_Upload Field -->
+                <input style="color:black;" type="file" class="form-control" (change)="selectFile($event)"/>
+                <br>
+
+                <div class="d-flex justify-content-center">
+                    <button type="reset" class="btn btn-primary">&nbsp;Reset&nbsp;</button>&nbsp;
+                    <button type="submit" class="btn btn-success" (click)="file_upload()">Upload</button>
+                </div> <br><br><br>
+
+            </form>
+
+        </div>
+
+    </div>
+  
+
+
+<!-- ==========================================================================================================  --> 
+       
+
+</div>
+
+

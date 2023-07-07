@@ -1,0 +1,14 @@
+.container {
+    background-color: rgb(184, 221, 239);
+    border-radius: 50px;
+    opacity: 0.8;
+    border: 2px solid black;
+    /* display: flex;
+    justify-content: center; */
+}
+img {
+    border-radius: 50px;
+}
+input {
+    border: 2px solid rgb(234, 119, 234);
+}

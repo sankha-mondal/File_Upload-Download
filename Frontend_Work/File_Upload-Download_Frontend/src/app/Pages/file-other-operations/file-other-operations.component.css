@@ -1,0 +1,51 @@
+th, td {
+    justify-content: center;
+    text-align: center;
+}
+._head {
+    background-color: rgb(85, 89, 74);
+    opacity: 0.8;
+    color: white;
+    font-size: larger;
+}
+._value {
+    background-color: rgb(232, 232, 14);
+    border: 2px solid black;
+    opacity: 0.8;
+}
+td {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-weight: bold;
+    color: rgb(89, 12, 89);
+}
+._value:hover {
+    background-color: rgb(119, 180, 237);
+}
+table {
+    border: 3px solid black;
+}
+b {
+    color: rgb(246, 248, 251);
+    font-size: larger;
+}
+input {
+    background-color: rgb(211, 182, 238);
+}
+select, pagination-controls {
+    color: rgb(58, 15, 230);
+    font-size: large;
+    font-weight: bold;
+}
+#pagi {
+    background-color: rgb(170, 147, 232);
+    border: 2px solid purple;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+select {
+    margin-left: 45%;
+}
