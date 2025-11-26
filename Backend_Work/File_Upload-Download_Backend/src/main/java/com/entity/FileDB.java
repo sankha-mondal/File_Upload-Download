@@ -25,7 +25,7 @@ public class FileDB {
   private String type;
 
   @Lob
-  private byte[] data;    // Do in MySQL: alter table files modify data longblob;
+  private byte[] data;    // Do in MySQL: alter table <table_name> modify data longblob;
   
   private String date_time;
 
